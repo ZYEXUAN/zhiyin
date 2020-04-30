@@ -19,6 +19,73 @@
     <!-- 轮播图 -->
     <div class="home_content_loaded scroll">
       <div class="swipeContainer">
+        <div class="swipe_wrap">
+          <div class="mint-swipe">
+            <div class="mint-swipe-items-wrap">
+              <div class="mint-swipe-item swipe_item is-active" style="">
+                <div
+                  class="comic_cover"
+                  comic_id="index"
+                  data-src="https://img.manhua.weibo.com/client/2020/04/14/gU3Vg3gU.jpg"
+                  lazy="loaded"
+                  style='background-image: url("https://img.manhua.weibo.com/client/2020/04/14/gU3Vg3gU.jpg");'
+                ></div>
+              </div>
+              <div
+                class="mint-swipe-item swipe_item"
+                style="transform: translate3d(-382px, 0px, 0px);"
+              >
+                <div
+                  class="comic_cover"
+                  comic_id="index"
+                  data-src="https://img.manhua.weibo.com/client/2020/02/11/ABTaCgOk.png"
+                  lazy="loaded"
+                  style='background-image: url("https://img.manhua.weibo.com/client/2020/02/11/ABTaCgOk.png");'
+                ></div>
+              </div>
+              <div
+                class="mint-swipe-item swipe_item"
+                style="transform: translate3d(-382px, 0px, 0px);"
+              >
+                <div
+                  class="comic_cover"
+                  comic_id="index"
+                  data-src="https://img.manhua.weibo.com/client/2020/04/15/AlOVg8Zy.png"
+                  lazy="loaded"
+                  style='background-image: url("https://img.manhua.weibo.com/client/2020/04/15/AlOVg8Zy.png");'
+                ></div>
+              </div>
+              <div
+                class="mint-swipe-item swipe_item"
+                style="transform: translate3d(-382px, 0px, 0px);"
+              >
+                <div
+                  class="comic_cover"
+                  comic_id="index"
+                  data-src="https://img.manhua.weibo.com/client/2020/04/15/n7hszy0N.png"
+                  lazy="loaded"
+                  style='background-image: url("https://img.manhua.weibo.com/client/2020/04/15/n7hszy0N.png");'
+                ></div>
+              </div>
+              <div class="mint-swipe-item swipe_item" style="">
+                <div
+                  class="comic_cover"
+                  comic_id="index"
+                  data-src="https://img.manhua.weibo.com/client/2020/04/20/lv8W0Tzo.png"
+                  lazy="loaded"
+                  style='background-image: url("https://img.manhua.weibo.com/client/2020/04/20/lv8W0Tzo.png");'
+                ></div>
+              </div>
+            </div>
+            <div class="mint-swipe-indicators">
+              <div class="mint-swipe-indicator is-active"></div>
+              <div class="mint-swipe-indicator"></div>
+              <div class="mint-swipe-indicator"></div>
+              <div class="mint-swipe-indicator"></div>
+              <div class="mint-swipe-indicator"></div>
+            </div>
+          </div>
+        </div>
       </div>
       <!-- 轮播图 end -->
 
@@ -52,10 +119,9 @@
           <p>完结</p>
         </div>
       </div>
-      <!---->
       <div class="recommend_block">
         <div class="home_recommend_header">
-          <div class="home_recommend_title">精品佳作</div>
+          <div class="home_recommend_title icon_ink">精品佳作</div>
           <div class="home_recommend_more">更多&gt;</div>
         </div>
         <div>
@@ -66,7 +132,7 @@
                   class="comic_cover"
                   data-src="https://img.manhua.weibo.com/client/2020/04/20/0JOTJle9.jpg"
                   lazy="loaded"
-                  style='width: 100%; background-image: url("https://img.manhua.weibo.com/client/2020/04/20/0JOTJle9.jpg");'
+                  style='width: 100%;height: 215px; background-image: url("https://img.manhua.weibo.com/client/2020/04/20/0JOTJle9.jpg");'
                 ></div>
                 <!---->
                 <div class="comic_cover_info">
@@ -83,7 +149,10 @@
                 </div>
               </div>
             </div>
-            <div class="home_recommend_comic">
+            <div
+              class="home_recommend_comic"
+              style="width:183px; height:139px;"
+            >
               <div class="comic_cover_container" style="width: 100%;">
                 <div
                   class="comic_cover"
@@ -106,7 +175,10 @@
                 </div>
               </div>
             </div>
-            <div class="home_recommend_comic">
+            <div
+              class="home_recommend_comic"
+              style="width:183px; height:139px;"
+            >
               <div class="comic_cover_container" style="width: 100%;">
                 <div
                   class="comic_cover"
@@ -192,7 +264,7 @@
                   class="comic_cover"
                   data-src="https://img.manhua.weibo.com/client/2020/04/20/dxzPDPoQ.jpg"
                   lazy="loading"
-                  style='width: 100%; background-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");'
+                  style='width: 100%; background-image: url("https://img.manhua.weibo.com/client/2020/04/20/dxzPDPoQ.jpg");'
                 ></div>
                 <!---->
                 <div class="comic_cover_info">
@@ -215,7 +287,7 @@
                   class="comic_cover"
                   data-src="https://img.manhua.weibo.com/client/2020/02/11/8Jsq2AOh.jpg"
                   lazy="loading"
-                  style='width: 100%; background-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");'
+                  style='width: 100%; background-image: url("https://img.manhua.weibo.com/client/2020/02/11/8Jsq2AOh.jpg");'
                 ></div>
                 <!---->
                 <div class="comic_cover_info">
@@ -250,7 +322,7 @@
                   class="comic_cover comice_horizontal_cover"
                   data-src="https://img.manhua.weibo.com/client/2020/04/20/lPqbZ18w.jpg"
                   lazy="loading"
-                  style='width: 100%; background-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");'
+                  style='background-image: url("https://img.manhua.weibo.com/client/2020/04/20/lPqbZ18w.jpg");'
                 ></div>
                 <div class="comic_cover_horizontal_info">
                   <div
@@ -289,7 +361,7 @@
                   class="comic_cover comice_horizontal_cover"
                   data-src="https://img.manhua.weibo.com/client/2020/04/20/JqyVe73t.jpg"
                   lazy="loading"
-                  style='width: 100%; background-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");'
+                  style='background-image: url("https://img.manhua.weibo.com/client/2020/04/20/JqyVe73t.jpg");'
                 ></div>
                 <div class="comic_cover_horizontal_info">
                   <div
@@ -328,7 +400,7 @@
                   class="comic_cover comice_horizontal_cover"
                   data-src="https://img.manhua.weibo.com/client/2020/04/20/KxyeCH28.jpg"
                   lazy="loading"
-                  style='width: 100%; background-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");'
+                  style='background-image: url("https://img.manhua.weibo.com/client/2020/04/20/KxyeCH28.jpg");'
                 ></div>
                 <div class="comic_cover_horizontal_info">
                   <div
@@ -377,7 +449,7 @@
                   class="comic_cover"
                   data-src="https://img.manhua.weibo.com/client/2020/04/20/ymrbyNpY.jpg"
                   lazy="loading"
-                  style='width: 100%; background-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");'
+                  style='width: 100%; background-image: url("https://img.manhua.weibo.com/client/2020/04/20/ymrbyNpY.jpg");'
                 ></div>
                 <!---->
                 <div class="comic_cover_info">
@@ -400,7 +472,7 @@
                   class="comic_cover"
                   data-src="https://img.manhua.weibo.com/client/2020/02/20/E8j8aIH7.png"
                   lazy="loading"
-                  style='width: 100%; background-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");'
+                  style='width: 100%; background-image: url("https://img.manhua.weibo.com/client/2020/02/20/E8j8aIH7.png");'
                 ></div>
                 <!---->
                 <div class="comic_cover_info">
@@ -434,7 +506,7 @@
                   class="comic_cover"
                   data-src="https://img.manhua.weibo.com/client/2020/04/20/99IpMOXX.jpg"
                   lazy="loading"
-                  style='width: 100%; background-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");'
+                  style='width: 100%; height: 215px; background-image: url("https://img.manhua.weibo.com/client/2020/04/20/99IpMOXX.jpg");'
                 ></div>
                 <!---->
                 <div class="comic_cover_info">
@@ -451,13 +523,16 @@
                 </div>
               </div>
             </div>
-            <div class="home_recommend_comic">
+            <div
+              class="home_recommend_comic"
+              style="width:183px; height:139px;"
+            >
               <div class="comic_cover_container" style="width: 100%;">
                 <div
                   class="comic_cover"
                   data-src="https://img.manhua.weibo.com/client/2020/04/20/eLWu5aeA.jpg"
                   lazy="loading"
-                  style='width: 100%; background-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");'
+                  style='width: 100%; background-image: url("https://img.manhua.weibo.com/client/2020/04/20/eLWu5aeA.jpg");'
                 ></div>
                 <!---->
                 <div class="comic_cover_info">
@@ -474,13 +549,16 @@
                 </div>
               </div>
             </div>
-            <div class="home_recommend_comic">
+            <div
+              class="home_recommend_comic"
+              style="width:183px; height:139px;"
+            >
               <div class="comic_cover_container" style="width: 100%;">
                 <div
                   class="comic_cover"
                   data-src="https://img.manhua.weibo.com/client/2020/02/20/lC1lRXS1.jpg"
                   lazy="loading"
-                  style='width: 100%; background-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");'
+                  style='width: 100%; background-image: url("https://img.manhua.weibo.com/client/2020/02/20/lC1lRXS1.jpg");'
                 ></div>
                 <!---->
                 <div class="comic_cover_info">
@@ -514,7 +592,7 @@
                   class="comic_cover"
                   data-src="https://img.manhua.weibo.com/client/2020/04/20/x6dbxpxt.jpg"
                   lazy="loading"
-                  style='width: 100%; background-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");'
+                  style='width: 100%; background-image: url("https://img.manhua.weibo.com/client/2020/04/20/x6dbxpxt.jpg");'
                 ></div>
                 <!---->
                 <div class="comic_cover_info">
@@ -537,7 +615,7 @@
                   class="comic_cover"
                   data-src="https://img.manhua.weibo.com/client/2020/02/11/idFJtbBA.png"
                   lazy="loading"
-                  style='width: 100%; background-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");'
+                  style='width: 100%; background-image: url("https://img.manhua.weibo.com/client/2020/02/11/idFJtbBA.png");'
                 ></div>
                 <!---->
                 <div class="comic_cover_info">
@@ -560,7 +638,7 @@
                   class="comic_cover"
                   data-src="https://img.manhua.weibo.com/client/2020/02/11/5ucQ3YSk.jpg"
                   lazy="loading"
-                  style='width: 100%; background-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");'
+                  style='width: 100%; background-image: url("https://img.manhua.weibo.com/client/2020/02/11/5ucQ3YSk.jpg");'
                 ></div>
                 <!---->
                 <div class="comic_cover_info">
@@ -586,75 +664,17 @@
 </template>
 
 <script>
+import HomeScss from '../../assets/styles/home.scss'
 export default {
-  name: 'Home'
+  name: 'Home',
+  mothods: {
+    scsshome () {
+      HomeScss()
+    }
+  }
 }
 </script>
 
 <style lang="scss" scoped>
-.home {
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  background: #f8f8f8;
-  .nav_content {
-    height: 48px;
-    display: flex;
-    flex-direction: row;
-    border-bottom: 1px solid #ccc;
-    .nav_left {
-      width: 120px;
-      height: 48px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      .l_con {
-        width: 90px;
-        height: 24px;
-        img {
-          width: 100%;
-          height: 100%;
-        }
-      }
-    }
-    .nav_center {
-      width: 154px;
-      height: 0;
-    }
-    .nav_right {
-      width: 145px;
-      height: 45px;
-      display: flex;
-      flex-direction: row;
-      .nav_switch_gender {
-        width: 48px;
-        height: 48px;
-        background: url("../../assets/icon/girl.8907d75c.png") no-repeat;
-        background-size: 100%;
-      }
-      .nav_serach {
-        width: 48px;
-        height: 48px;
-        background: url("../../assets/icon/search.15e76af5.png") no-repeat;
-        background-size: 100%;
-      }
-      .nav_mine {
-        width: 48px;
-        height: 48px;
-        background: url("../../assets/icon/mine.01301e95.png") no-repeat;
-        background-size: 100%;
-      }
-    }
-  }
-  .home_content_loaded {
-    width: 100%;
-    height: 553px;
-    background: pink;
-    .swipeContainer {
-      width: 100%;
-      height: 190px;
-      background: pink;
-    }
-  }
-}
+@import "../../assets/styles/home.scss";
 </style>
